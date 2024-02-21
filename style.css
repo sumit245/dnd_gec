@@ -1,0 +1,20 @@
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+div p:nth-child(1) {
+    color: red;
+}
+
+div p:nth-child(2) {
+    color: blue;
+}
+
+div p:nth-child(3) {
+    color: green;
+}
+
+div p:nth-child(4) {
+    color: yellow;
+}
