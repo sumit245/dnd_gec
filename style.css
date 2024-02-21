@@ -8,7 +8,7 @@ div p:nth-child(1) {
 }
 
 div p:nth-child(2) {
-    color: blue;
+    color: aliceblue;
 }
 
 div p:nth-child(3) {
