@@ -5,41 +5,64 @@
     <meta charset="utf-8">
     <title>Responsive Navbar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Dashandots</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Insights</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Mobile Apps</a>
+                        <a class="dropdown-item" href="#">Website Apps</a>
+                        <a class="dropdown-item" href="#">Training</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Insights</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2 searchbox" type="search" placeholder="Search anything"
+                    aria-label="Search">
+            </form>
+
+        </div>
+    </nav>
     <section>
-        <p>
-            Hello
-            <dt>inertia</dt>
-            <dd>is the phenomena to keep an object in state in which it is residing</dd>
-            How are you
-        </p>
-        <code style="background-color: black;height: 100px; width: 100px; color: aliceblue; ">
-            #include<stdio.h>
-                void main(){
-                    prinf("Hello World")
-                }
-        </code>
+
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

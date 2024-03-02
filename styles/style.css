@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -115,4 +115,35 @@ section {
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+} */
+
+
+.dropdown-item {
+  color: aliceblue !important;
+}
+
+.dropdown-item:hover {
+  background-color: #D91B5C;
+}
+
+.searchbox {
+  border-radius: 20px;
+  border-width: 0px;
+  border-color: transparent;
+}
+
+.nav-item {
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-color: #D91B5C;
+  text-underline-offset: 10px;
 }
