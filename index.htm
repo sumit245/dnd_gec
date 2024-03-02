@@ -1,55 +1,45 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Responsive Navbar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
+
 <body>
-    <header class="header">
-        <img src="company logo.jpg" alt="DashandDots logo" class="logo">
-        <nav class="navbar">
-            <ul class="navbar-list">
-                  <li><a class="navbar-link" href="#">Home</a></li>
-                  <li><a class="navbar-link" href="#">About</a></li>
-                  <li><a class="navbar-link" href="#">Services</a></li>
-                  <li><a class="navbar-link" href="#">Gallery</a></li>
-                  <li><a class="navbar-link" href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Dashandots</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Insights</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-        <div class="mobile-navbar-button">
-            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-        </div>
-    </header>
-
-    <!-- Our Main hero Section start -->
-
-    <main>
-        <section class="section-hero">
-            <div class="hero">
-                <p>Hero Section</p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Our Service Section start -->
-
-    <section class="section-Services">
-            <div class="hero">
-                <p>Services Section</p>
-            </div>
-     </section>
-
-
-     <!-- OUR JAVASCRIPT SECTION START -->
-
-     <script type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
-    </script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    
-
+    <section>
+        <p>
+            Hello
+            <dt>inertia</dt>
+            <dd>is the phenomena to keep an object in state in which it is residing</dd>
+            How are you
+        </p>
+        <code style="background-color: black;height: 100px; width: 100px; color: aliceblue; ">
+            #include<stdio.h>
+                void main(){
+                    prinf("Hello World")
+                }
+        </code>
+    </section>
 </body>
+
 </html>
