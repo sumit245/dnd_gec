@@ -14,46 +14,70 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-dark">
     <!-- Image and text -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand mr-lg-5" href="#">
             <img src="/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
-                    </a>
-                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Mobile Apps</a>
-                        <a class="dropdown-item" href="#">Website Apps</a>
-                        <a class="dropdown-item" href="#">Training</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Insights</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+        <div class="container-fluid">
+            <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarmenulinks"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <input class="form-control mr-sm-2 searchbox" type="search" placeholder="Search anything"
-                    aria-label="Search">
-            </form>
+            <div class="collapse navbar-collapse" id="navbarmenulinks">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">What we do <span
+                                class="sr-only">(current)</span></a>
+                        <!-- Dropdown menu -->
+                        <div class="dropdown-menu w-100 mt-0 bg-dark" aria-labelledby="navbarDropdown"
+                            style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                            <div class="container bg-dark">
+                                <div class="row my-4">
+                                    <div class="col-lg-3">
+                                        <p class="text-light">Overview</p>
+                                        <p class="text-light">Industries</p>
+                                        <p class="text-light">Services</p>
+                                    </div>
 
+                                    <div class="col-lg-9">
+                                        <p>
+                                        <h1 class="text-light">Dashandots Technology is a leading platform for web and
+                                            mobile and software
+                                        </h1>
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Insights</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+
+                    <input class="form-control mr-sm-2 searchbox" type="search" placeholder="Search anything"
+                        aria-label="Search">
+                </form>
+
+            </div>
+
+            <div class="collapse" id="toggler-image">
+                <img src="./img/logo.png" height="100px" width="100px" />
+            </div>
         </div>
     </nav>
     <section>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap')
 /* * {
   padding: 0;
   margin: 0;
@@ -134,16 +135,36 @@ section {
 
 .nav-item {
   color: aliceblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 14px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 16px;
 }
 
 .nav-link {
   color: aliceblue !important;
+  font-style: normal;
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .nav-item:hover {
   text-decoration: underline;
   text-decoration-color: #D91B5C;
-  text-underline-offset: 10px;
+  text-underline-offset: 16px;
+  text-decoration-line: underline;
+  font-weight: 400;
+}
+
+.dropdown-toggle::after {
+  -webkit-appearance: none !important;
+}
+
+select::-ms-expand {
+  display: none !important;
 }
