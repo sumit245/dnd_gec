@@ -1,6 +1,13 @@
-.navbar .navbar-nav .nav-item a{
-    padding: 40px;
+.navbar .navbar-nav .nav-item a {
+  padding: 40px;
 }
 .navbar .navbar-nav .nav-but {
-    padding: 8px;
+  padding: 8px;
+}
+.nav-item {
+  transition: all 0.2s;
+}
+.nav-item :hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid pink;
 }
