@@ -1,14 +1,53 @@
 .navbar .navbar-nav .nav-item a {
-  padding : 10px;
-  padding-inline:  25px !important;
+  padding: 10px;
+  padding-inline: 25px !important;
 }
 .navbar .navbar-nav .nav-but {
   padding: 8px;
 }
-.nav-item {
+.nav-item drpdown {
   transition: all 0.2s;
 }
 .nav-item :hover {
-  /* text-decoration: underline; */
-  border-bottom: 2px solid pink;
+   text-decoration: underline;
+  text-decoration: underline solid thin #D9185C;
+}
+
+}
+.dropdown {
+  border: none !important;
+}
+
+.mega-menu {
+  min-width: 1000px;
+}
+
+.mega-menu .container {
+  padding: 0;
+}
+
+.mega-menu .row {
+  margin: 0;
+}
+
+.mega-menu .list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mega-menu li {
+  padding: 10px 0;
+}
+
+.mega-menu a {
+  color: #D9185C;
+  text-decoration: none;
+}
+.navbar-nav .nav-link:hover {
+  font-weight: 500;
+}
+.navbar-right {
+  position: absolute;
+  right: 0 !important; 
 }
