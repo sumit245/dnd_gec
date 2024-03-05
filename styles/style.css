@@ -157,7 +157,6 @@ section {
   text-decoration: underline;
   text-decoration-color: #D91B5C;
   text-underline-offset: 16px;
-  text-decoration-line: underline;
   font-weight: 400;
 }
 
@@ -167,4 +166,12 @@ section {
 
 select::-ms-expand {
   display: none !important;
+}
+
+.megamenu {
+  position: static;
+}
+
+.megamenu-content {
+  padding: 20px;
 }
