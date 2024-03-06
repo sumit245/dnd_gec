@@ -177,8 +177,14 @@ select::-ms-expand {
   padding: 20px;
 }
 
-.list-group-item:hover {
+ .list-group-item:hover {
   font-size: 16px;
   border-bottom: #D91B5C 2px solid;
   cursor: pointer;
-}
+} 
+
+
+
+
+ 
+
