@@ -19,31 +19,16 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="logo.png" alt="logo" style="height: 48px; width: 48px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" style="height: 48px; width: 48px"/></a>
+        <button class="navbar-toggler px-0"type="button"data-bs-toggle="collapse"data-bs-target="#navbarmenulinks"
+          aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarmenulinks">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item mx-1 dropdown position-static">
-              <a
-                class="nav-link active dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >What we do</a>
+              <a class="nav-link active dropdown-toggle"href="#"id="whatwedomenu"role="button"data-bs-toggle="dropdown"
+                aria-expanded="false">What we do</a>
               <!-- megamenu -->
              
               <div
@@ -54,18 +39,68 @@
                   <div class="row my-2">
                     <div class="col-lg-3" style="border: none">
                       <ul class="list-group-flush bg-dark">
-                        <li class="list-group-item bg-dark text-white"role="button">Overview  </li>
-                        <li class="list-group-item bg-dark text-white"role="button">Industries </li>
-                        <li class="list-group-item bg-dark text-white"role="button">Services </li>
+                        <li class="list-group-item bg-dark text-white"role="button" id="overview">Overview  </li>
+                           <!-- <li class="list-group-item bg-dark text-white dropdown-toggle"
+                            data-toggle="dropdown" id="industriesmenu" role="button"
+                              aria-expanded="false">
+                              Industries</li> -->
+                        <li class="list-group-item bg-dark text-white"role="button" id="industries">Industries </li>
+
+                        <li class="list-group-item bg-dark text-white"role="button" id="services">Services </li>
                        
                       </ul>
                     </div>
 
-                    <div class="col-lg-8 mx-4 p-4">
-                      <h4 class="text-light">
-                       Dash And Dots: Leading software provider in Delhi NCR, offering 150+ software solutions for businesses and comprehensive IT training. Pioneers in embedded software and diverse computer courses.
-                      </h4>
+                    <div class="col-lg-9 p-4">
+                      <div id="overview-content">
+                      <h2 class="text-light">
+                        Dashandots Technology Private Limited-Best Software Company in NCR.</h2>
+                      <p class="text-light">
+                        offering 150+ software solutions for businesses and comprehensive IT training. Pioneers in embedded software and diverse computer courses.
+                      </p>
                     </div>
+                   
+                   <div id="industries-content" style="display: none;">
+                    <div class="row max-4">
+                      <div class="col-lg-4">
+                        <a class="nav-link">Food Commerce</a>
+                         <a class="nav-link">Food Commerce</a>
+                          <a class="nav-link">Food Commerce</a>
+                      </div>
+                       <div class="col-lg-4">
+                        <a class="nav-link">Tour and Travels</a>
+                         <a class="nav-link">Food Commerce</a>
+                          <a class="nav-link">Food Commerce</a>
+                      </div>
+                      
+                       <div class="col-lg-4">
+                        <a class="nav-link">Salon & Parlors</a>
+                         <a class="nav-link">Food Commerce</a>
+                          <a class="nav-link">Food Commerce</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="service-content" style="display: none;">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <a class="nav-link">Mobile App Development</a>
+                         <a class="nav-link">Website Desigin</a>
+                          <a class="nav-link">Web app development</a>
+                      </div>
+                       <div class="col-lg-4">
+                        <a class="nav-link">Industrial Automation software</a>
+                         <a class="nav-link">Panel Software</a>
+                          <a class="nav-link">Scada Software</a>
+                      </div>
+                       <div class="col-lg-4">
+                        <a class="nav-link">Digital Marketing</a>
+                         <a class="nav-link">Graphics Desigin</a>
+                          <a class="nav-link">SEO/SMD</a>
+                      </div>
+                       
+                      </div>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -96,17 +131,17 @@
                     </div>
 
                     <div class="col-lg-8 mx-4 p-4">
-                      <h4 class="text-light">
-                        Dashandots Technology is a leading platform for web and
-                        mobile and software
-                      </h4>
+                      <h2 class="text-light">
+                       We’re in it for good, driving positive change for the benefit of all.
+                      </h2>
+                      <p class="text-light">Our expert, committed team put our shared beliefs into action – every day. Together, we combine innovation and collective knowledge to create the extraordinary.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </li>
 
-            <li class="nav-item mx-1 dropdown position-static">
+            <!-- <li class="nav-item mx-1 dropdown position-static">
               <a
                 class="nav-link active dropdown-toggle"
                 href="#"id="navbarDropdown"role="button"data-bs-toggle="dropdown"
@@ -127,15 +162,15 @@
                     </div>
 
                     <div class="col-lg-8 mx-4 p-4">
-                      <h4 class="text-light">
+                      <h2 class="text-light">
                         Dashandots Technology is a leading platform for web and
-                        mobile and software
-                      </h4>
+                        mobile and software.
+                      </h2>
                     </div>
                   </div>
                 </div>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item mx-1 dropdown position-static">
               <a
                 class="nav-link active dropdown-toggle"
@@ -161,9 +196,10 @@
                     </div>
 
                     <div class="col-lg-8 mx-4 p-4">
-                      <h4 class="text-light">
-                         Our team of experienced professionals is dedicated to understanding your unique business needs and goals. We collaborate closely with you to develop innovative solutions that align with your vision and drive growth.
-                      </h4>
+                      <h2 class="text-light">
+                         Our team of experienced professionals is dedicated to understanding your unique business needs and goals.
+                      </h2>
+                      <p class="text-light"> We collaborate closely with you to develop innovative solutions that align with your vision and drive growth.</p>
                     </div>
                   </div>
                 </div>
@@ -194,9 +230,10 @@
                     </div>
 
                     <div class="col-lg-8 mx-4 p-4">
-                      <h4 class="text-light">
-                     Dash and Dots has been our trusted software solution provider for the past year, revolutionizing our operations and boosting efficiency. We look forward to a long-lasting partnership with them.
-                      </h4>
+                      <h2 class="text-light">
+                          Dash and Dots: Our trusted software partner for a year, revolutionizing operations and boosting efficiency. 
+                      </h2>
+                      <p class="text-light">Excited for a long-lasting partnership!</p>
                     </div>
                   </div>
                 </div>
@@ -220,5 +257,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
