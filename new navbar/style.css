@@ -1,11 +1,8 @@
-
-
-.nav-item :hover{
-    text-decoration: underline;
+.nav-item :hover {
+  text-decoration: underline;
 }
 
-
-/* .navbar-right {
+/* .nav-item {
   position: absolute;
-  right: -2 !important;
+  right: 0 !important;
 } */
