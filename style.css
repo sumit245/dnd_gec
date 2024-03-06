@@ -5,3 +5,29 @@
 .nav-item :hover {
   text-decoration: underline;
 }
+
+.whatwedomenu .dropdown-menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+#whowearemenu .dropdown-menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+#servicemenu .dropdown-menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+#skillsmenu .dropdown-menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+#insightsmenu .dropdown-menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+p:hover,
+h1:hover,
+a:hover {
+  background-color: rgb(196, 30, 99);
+}
