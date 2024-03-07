@@ -28,7 +28,7 @@ $(document).ready(function () {
   });
 
   $("#technology").hover(function () {
-    $("#technology").toggleClass("d-block");
+    $("#technology-content").toggleClass("d-block");
     $("#aboutus-content").toggleClass("d-none");
     $("#team-content").toggleClass("d-none");
     $("#over-content").toggleClass("d-none");
@@ -44,5 +44,54 @@ $(document).ready(function () {
     $("#technology-content").toggleClass("d-none");
     $("#over-content").toggleClass("d-none");
     $("#aboutus-content").toggleClass("d-none");
+  });
+});
+
+// insights
+
+$(document).ready(function () {
+  $("#testimonial").hover(function () {
+    $("#testimonial-content").toggleClass("d-block");
+    $("#gallery-content").toggleClass("d-none");
+    $("#blog-content").toggleClass("d-none");
+  });
+
+  $("#gallery").hover(function () {
+    $("#gallery-content").toggleClass("d-block");
+    $("#testimonial-content").toggleClass("d-none");
+    $("#blog-content").toggleClass("d-none");
+  });
+  $("#blog").hover(function () {
+    $("#blog-content").toggleClass("d-block");
+    $("#testimonial-content").toggleClass("d-none");
+    $("#blog-content").toggleClass("d-none");
+  });
+});
+// skills
+$(document).ready(function () {
+  $("#industrial").hover(function () {
+    $("#industrial-content").toggleClass("d-block");
+    $("#corporate-content").toggleClass("d-none");
+    $("#college-content").toggleClass("d-none");
+    $("#abc-content").toggleClass("d-none");
+  });
+
+  $("#corporate").hover(function () {
+    $("#corporate-content").toggleClass("d-block");
+    $("#industrial-content").toggleClass("d-none");
+    $("#college-content").toggleClass("d-none");
+    $("#abc-content").toggleClass("d-none");
+  });
+  $("#college").hover(function () {
+    $("#college-content").toggleClass("d-block");
+    $("#industrial-content").toggleClass("d-none");
+    $("#corporate-content").toggleClass("d-none");
+    $("#abc-content").toggleClass("d-none");
+  });
+  $("#abc").hover(function () {
+    $("#abc-content").toggleClass("d-block");
+    $("#corporate-content").toggleClass("d-none");
+    $("#industrial-content").toggleClass("d-none");
+    $("#college-content").toggleClass("d-none");
   });
 });
