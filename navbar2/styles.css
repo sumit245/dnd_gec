@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap")
+ .dropdown-item {
+  color: aliceblue !important;
+}
+
+.dropdown-item:hover {
+  background-color: #d91b5c;
+}
+
+.searchbox {
+  border-radius: 20px;
+  border-width: 0px;
+  border-color: transparent;
+}
+
+.nav-item {
+  color: aliceblue;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 16px;
+}
+
+.nav-link {
+  color: aliceblue !important;
+  font-style: normal;
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-color: #d91b5c;
+  text-underline-offset: 16px;
+  font-weight: 400;
+}
+
+.dropdown-toggle::after {
+  -webkit-appearance: none !important;
+}
+
+select::-ms-expand {
+  display: none !important;
+}
+
+.megamenu {
+  position: static;
+}
+
+.megamenu-content {
+  padding: 20px;
+}
+
+.list-group-item:hover {
+  font-size: 16px;
+  border-bottom: #d91b5c 2px solid;
+  cursor: pointer;
+}
