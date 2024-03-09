@@ -178,3 +178,8 @@ select::-ms-expand {
   border-bottom: #d91b5c 2px solid;
   cursor: pointer;
 }
+
+.c-item {
+  height: 580px;
+}
+
