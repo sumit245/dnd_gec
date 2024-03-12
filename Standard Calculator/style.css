@@ -77,6 +77,7 @@ h1 {
 
 .calculator-container .number {
   background-color: rgb(11, 74, 104);
+  box-shadow: 0 0 5px;
 }
 
 .history {
@@ -115,6 +116,7 @@ a img {
   background-color: red;
   box-shadow: 0 0 5px;
 }
+
 .button-row button#allClear {
   background-color: rgb(67, 128, 10);
   box-shadow: 0 0 5px;
@@ -132,7 +134,7 @@ a img {
   box-shadow: 0 0 5px;
 }
 .button-row button#positiveNegative {
-  background-color: rgb(77, 77, 5);
+  background-color: rgb(77, 77, 4);
   box-shadow: 0 0 5px;
 }
 
