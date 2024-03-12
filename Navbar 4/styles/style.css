@@ -65,11 +65,12 @@ select::-ms-expand {
 ========================================== */
 
 .carousel-item > .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.685);
-  color: white;
-  padding: 2px;
+  /* background-color: rgba(0, 0, 0, 0.685); */
+  color: #d91b5c;
+  padding: 15px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
 }
 .carousel-caption {
   position: absolute;
@@ -78,9 +79,15 @@ select::-ms-expand {
   transform: translate(-50%, -50%);
   width: 50%;
 }
+.carousel-caption p {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
 .carousel-item img {
   transition: filter 0.5s ease;
-  filter: blur(0.8px);
+  /* filter: blur(0.8px); */
+  filter: brightness(15%);
 }
 
 .btn {
