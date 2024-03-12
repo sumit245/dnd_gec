@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standard Calculator</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>-Standard Calculator with History-</h1>
+
+    <div class="main">
+      <div class="calculator-container">
+        <div class="display-row">
+          <a id="showHistory"
+            ><img
+              src="https://www.seekpng.com/png/full/781-7815113_history-icon-white-png.png"
+              alt=""
+          /></a>
+          <p class="equation" id="equation">0</p>
+          <p class="inputAnswer" id="inputAnswer">0</p>
+        </div>
+        <div class="button-row">
+          <button class="operator">%</button>
+          <button id="allClear">AC</button>
+          <button id="clear">C</button>
+          <button id="delete">DEL</button>
+        </div>
+        <div class="button-row">
+          <button id="squared">x²</button>
+          <button id="squareRoot">√</button>
+          <button id="positiveNegative">+/-</button>
+          <button class="operator">÷</button>
+        </div>
+        <div class="button-row">
+          <button class="number" id="seven">7</button>
+          <button class="number" id="eight">8</button>
+          <button class="number" id="nine">9</button>
+          <button class="operator">*</button>
+        </div>
+        <div class="button-row">
+          <button class="number" id="four">4</button>
+          <button class="number" id="five">5</button>
+          <button class="number" id="six">6</button>
+          <button class="operator">-</button>
+        </div>
+        <div class="button-row">
+          <button class="number" id="one">1</button>
+          <button class="number" id="two">2</button>
+          <button class="number" id="three">3</button>
+          <button class="operator">+</button>
+        </div>
+        <div class="button-row">
+          <button class="number" id="doubleZero">00</button>
+          <button class="number" id="zero">0</button>
+          <button class="number" id="decimal">.</button>
+          <button id="calculate">=</button>
+        </div>
+      </div>
+      <div class="history">
+        <p>History:</p>
+        <ul></ul>
+      </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>

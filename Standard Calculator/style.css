@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(210, 210, 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 100px;
+  color: rgb(3, 39, 39);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 30px;
+  max-width: 900px;
+}
+
+.calculator-container {
+  flex: 1;
+  box-sizing: border-box;
+  border: 2px solid;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgb(27, 27, 27);
+  box-shadow: 0 5px 10px rgb(10, 187, 241);
+}
+
+.calculator-container button {
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 3px;
+  color: white;
+  /* background-color: rgb(50, 50, 50); */
+  border: none;
+  cursor: pointer;
+}
+
+.calculator-container button:hover {
+  background-color: rgb(12, 123, 214);
+}
+
+.display-row {
+  height: 130px;
+  max-height: 130px;
+  text-align: right;
+  color: rgb(37, 195, 252);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 5px 5px 5px;
+}
+
+.display-row .equation {
+  visibility: hidden;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.display-row .inputAnswer {
+  font-size: 40px;
+}
+
+.calculator-container .number {
+  background-color: rgb(11, 74, 104);
+}
+
+.history {
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 230px;
+  height: 623px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.history ul {
+  list-style: none;
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: 540px;
+  width: 210px;
+}
+
+.history p {
+  margin-top: 20px;
+  color: rgb(22, 240, 240);
+  text-align: left;
+  margin-left: 15px;
+  font-size: 18px;
+}
+a img {
+  height: 25px;
+  width: 30px;
+  float: right;
+}
+
+.button-row button#delete {
+  background-color: red;
+  box-shadow: 0 0 5px;
+}
+.button-row button#allClear {
+  background-color: rgb(67, 128, 10);
+  box-shadow: 0 0 5px;
+}
+.button-row button#clear {
+  background-color: rgb(67, 128, 10);
+  box-shadow: 0 0 5px;
+}
+.button-row button#squared {
+  background-color: rgb(77, 77, 5);
+  box-shadow: 0 0 5px;
+}
+.button-row button#squareRoot {
+  background-color: rgb(77, 77, 5);
+  box-shadow: 0 0 5px;
+}
+.button-row button#positiveNegative {
+  background-color: rgb(77, 77, 5);
+  box-shadow: 0 0 5px;
+}
+
+.button-row button.operator {
+  box-shadow: 0 0 5px;
+  background-color: rgb(77, 77, 5);
+}
+.button-row button#calculate {
+  box-shadow: 0 0 5px;
+  background-color: rgb(15, 15, 179);
+}
+
+.display-row {
+  background-color: rgb(8, 87, 8);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: right;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
