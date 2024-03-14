@@ -1,0 +1,47 @@
+#fullname {
+  border: 1px solid #e54b76;
+  background-color: #f2f4f4;
+}
+#email {
+  border: 1px solid #e54b76;
+}
+#phone {
+  border: 1px solid #e54b76;
+}
+#subject {
+  border: 1px solid #e54b76;
+  background-color: #f2f4f4;
+}
+#message {
+  border: 1px solid #e54b76;
+  background-color: #f2f4f4;
+}
+
+.bi-envelope {
+  fill: orange;
+}
+
+.bi-telephone {
+  fill: blue;
+}
+
+.text-center {
+  color: white !important;
+  font-family: Roboto, sans-serif;
+}
+
+/* ==================
+    Submit button
+============================ */
+.btn-primary {
+  color: #e54b76;
+  border: 2px solid #e54b76;
+  background: 0 0;
+  font-family: Roboto, sans-serif;
+}
+.btn-primary:hover {
+  background-color: #e54b76;
+}
+.container {
+  background-color: #e54b76;
+}
